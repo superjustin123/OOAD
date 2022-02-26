@@ -5,11 +5,11 @@ public class UpdateHandler {
         return false;
     }
 
-    public boolean updateProjectStatus(int projectID, String status) {
+    static public boolean updateProjectStatus(int projectID, String status) {
         return false;
     }
 
-    public boolean updateUserStatus(int userID, boolean isDisabled) {
+    public static boolean updateUserStatus(int userID, boolean isDisabled) {
         return false;
     }
 }
